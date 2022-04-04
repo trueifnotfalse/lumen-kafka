@@ -8,9 +8,13 @@
         }
     ],
     "require": {
-        "php": "^8.0 || ^8.1"
+        "php": "^8.0 || ^8.1",
+        "mateusjunges/laravel-kafka": "^1.7"
     },
     "autoload": {
+        "files": [
+            "src/functions.php"
+        ],
         "psr-4": {
             "TrueIfNotFalse\\LumenKafka\\": "src/"
         }
