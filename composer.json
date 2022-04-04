@@ -1,0 +1,18 @@
+{
+    "name": "trueifnotfalse/lumen-kafka",
+    "description": "Kafka driver for Lumen Queue.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "trueifnotfalse"
+        }
+    ],
+    "require": {
+        "php": "^8.0 || ^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TrueIfNotFalse\\LumenKafka\\": "src/"
+        }
+    }
+}
